@@ -13,6 +13,8 @@
 		1D98256328BFD353003F892F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D98256128BFD353003F892F /* Main.storyboard */; };
 		1D98256528BFD354003F892F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D98256428BFD354003F892F /* Assets.xcassets */; };
 		1D98256828BFD354003F892F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D98256628BFD354003F892F /* LaunchScreen.storyboard */; };
+		1DD835EE28C4DE2200BCDFC9 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DD835EC28C4DE2200BCDFC9 /* level1.txt */; };
+		1DD835EF28C4DE2200BCDFC9 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DD835ED28C4DE2200BCDFC9 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1D98256428BFD354003F892F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D98256728BFD354003F892F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D98256928BFD354003F892F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD835EC28C4DE2200BCDFC9 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		1DD835ED28C4DE2200BCDFC9 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				1D98256128BFD353003F892F /* Main.storyboard */,
 				1D98256428BFD354003F892F /* Assets.xcassets */,
 				1D98256628BFD354003F892F /* LaunchScreen.storyboard */,
+				1DD835EC28C4DE2200BCDFC9 /* level1.txt */,
+				1DD835ED28C4DE2200BCDFC9 /* level2.txt */,
 				1D98256928BFD354003F892F /* Info.plist */,
 			);
 			path = SwiftyWords;
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD835EF28C4DE2200BCDFC9 /* level2.txt in Resources */,
 				1D98256828BFD354003F892F /* LaunchScreen.storyboard in Resources */,
+				1DD835EE28C4DE2200BCDFC9 /* level1.txt in Resources */,
 				1D98256528BFD354003F892F /* Assets.xcassets in Resources */,
 				1D98256328BFD353003F892F /* Main.storyboard in Resources */,
 			);
