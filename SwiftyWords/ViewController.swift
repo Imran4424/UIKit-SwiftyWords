@@ -135,6 +135,11 @@ class ViewController: UIViewController {
                 
                 let frame = CGRect(x: col * width, y: row * height, width: width, height: height)
                 letterButton.frame = frame
+                
+                // creating gray border to letter buttons
+//                letterButton.layer.borderWidth = 1
+//                letterButton.layer.borderColor = UIColor.lightGray.cgColor
+                
                 buttonsView.addSubview(letterButton)
                 letterButtons.append(letterButton)
             }
@@ -213,6 +218,9 @@ class ViewController: UIViewController {
         guard let solutionPosition = solutions.firstIndex(of: answerText) else {
             // wrong answer
             print("solution position not found")
+            let alert = UIAlertController(title: "Wrong Answer!!!", message: "Please try again", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .cancel))
+            present(alert, animated: true)
             return
         }
         
